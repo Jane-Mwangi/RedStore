@@ -1,0 +1,11 @@
+.box{
+    background-color: rgb(113, 84, 219);
+    width: 300%;
+    
+    position: absolute;
+}
+.small-box{
+background-color: aqua;
+position: relative;
+width: 202px;
+}

@@ -1,0 +1,57 @@
+body{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    width:100px;
+    height: 60px;
+    background-color: rgb(2, 12, 2);
+}
+img{
+    position: relative;
+    height: 370%;
+    width: 225%;
+    left: 393%;
+    padding: 10px;
+    padding-left: 0%;
+    border-radius: 50%;
+
+}
+.html-spinner{
+    width: 215%;
+    height: 350%;
+    border:15px solid hsl(60, 100%, 50%);
+    border-top: 15px solid #f5037c;
+    border-radius: 900%;
+    position: absolute;
+    top: 1px;
+    margin-left: 0px;
+    left: 377%;
+    
+-webkit-transition-property: - webkit-transform;
+
+-webkit-animation-name: rotate;
+ -webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+-moz-transition-property: -moz-transform;
+-moz-animation-name: rotate;
+-moz-animation-iteration-count: infinite;
+-moz-animation-timing-function: linear;
+transition-property: transform;
+animation-name: rotate;
+animation-duration: 1.2s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate{
+from{-webkit-transform:rotate(0deg)}
+to{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes rotate{
+from{-moz-transform:rotate(360deg);}
+to{-moz-transform:rotate(360deg);}
+}
+@keyframes rotate{
+from{-webkit-transform:rotate(0deg)}
+to{-webkit-transform: rotate(360deg);}
+}

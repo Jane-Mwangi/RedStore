@@ -1,0 +1,7 @@
+div{
+    background-color: aqua;
+    display: flex;
+    width: 50vh;
+    height: 50vh;
+    justify-content: center;
+}
